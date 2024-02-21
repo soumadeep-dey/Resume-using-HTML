@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <table id="header">
+    <table id="header" cellpadding="3">
         <tr>
             <td>
                 <img src="./assets/img/CV dp.jpg" alt="CV image" width="200" />
@@ -19,16 +19,16 @@
                 <p>Future Institute of Engineering and Management</p>
             </td>
             <td align="right">
-                <a href="tel:+916291528931">+91-6291528931</a> <br />
-                <a href="mailto:contactsoumadeepdey@gmail.com">contactsoumadeepdey@gmail.com</a> <br />
-                <a href="https://github.com/soumadeep-dey" target="_blank">github.com/soumadeep-dey</a> <br />
-                <span>Kolkata, West Bengal</span>
+                📞 <a href="tel:+91629151">+91-629152231</a> <br />
+                📬 <a href="mailto:contactsoumadeepdey@gmail.com">contactsoumadeepdey@gmail.com</a> <br />
+                🔗 <a href="https://github.com/soumadeep-dey" target="_blank">github.com/soumadeep-dey</a> <br />
+                📍<span>Kolkata, West Bengal</span>
             </td>
         </tr>
     </table>
     <hr />
     <h2>EDUCATION :</h2>
-    <table id="education" border="">
+    <table id="education" border="" cellpadding="6">
         <tr>
             <th>Degree</th>
             <th>University</th>
@@ -47,10 +47,10 @@
             <td>BCA</td>
             <td>IGNOU</td>
             <td>Indira Gandhi National Open University</td>
-            <td>67%</td>
+            <td>First Division</td>
             <td>2021</td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td>XII</td>
             <td>ISC</td>
             <td>The Assembly of God Church School</td>
@@ -63,12 +63,12 @@
             <td>The Assembly of God Church School</td>
             <td>75.2%</td>
             <td>2014</td>
-        </tr>
+        </tr> -->
     </table>
     <hr />
-    <table id="body" border="" cellpadding="5">
+    <table id="body" cellpadding="3">
         <tr id="r1">
-            <td id="tech">
+            <td id="tech" valign="top">
                 <h2>TECHNICAL SKILLS :</h2>
                 <hr />
                 <ul>
@@ -85,8 +85,6 @@
                         <strong><em>Web Development:</em></strong>
                         <ul>
                             <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
                         </ul>
                     </li>
                     <li>
@@ -99,7 +97,7 @@
                         <strong><em>Operating System:</em></strong>
                         <ul>
                             <li>Windows</li>
-                            <li>Linux (Ubuntu, Mint, Kubuntu)</li>
+                            <li>Linux</li>
                         </ul>
                     </li>
                     <li>
@@ -111,16 +109,42 @@
                     </li>
                 </ul>
             </td>
-            <td id="project" rowspan="2">
+            <td id="project" rowspan="4" valign="top" style="width: 75%;">
                 <h2>PROJECTS :</h2>
                 <hr />
                 <ul>
                     <li id="project-1">
-                        <h3>NEMO (Voice Controlled Personal Virtual Assistant)</h3>
-                        <a href="https://youtu.be/s6moWG6B47I" target="_blank">🌐 Youtube</a>
+                        <h3>Resume using only HTML</h3>
+                        🌐 <a href="#" target="_blank">Website</a>
                         &nbsp;
-                        <a href="https://github.com/soumadeep-dey/NEMO-Personal-Virtual-Assistant" target="_blank">🔗
-                            GITHUB</a>
+                        🔗 <a href="#" target="_blank">GitHub</a>
+                        <p>
+                            <strong>Techstack:</strong>
+                            <em>HTML: h, p, table, br, hr, strong, em, ul/ol/li</em>
+                        </p>
+                        <ul>
+                            <li>
+                                Developed my first web page using Basic HTML tags.
+                            </li>
+                            <li>
+                                Took a project oriented approach to utilize the tags I've learnt today.
+                            </li>
+                            <li>
+                                <em><u>Challenges faced:</u></em>
+                                <ul>
+                                    <li>Designing the 2 columns resume template.</li>
+                                    <li>Adjusting the alignment of the content.</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="project-2">
+                        <h3>NEMO (Voice Controlled Personal Virtual Assistant)</h3>
+                        🌐 <a href="https://youtu.be/s6moWG6B47I" target="_blank">Youtube</a>
+                        &nbsp;
+                        🔗 <a href="https://github.com/soumadeep-dey/NEMO-Personal-Virtual-Assistant"
+                            target="_blank">GitHub</a>
                         <p>
                             <strong>Techstack:</strong>
                             <em>Python, MongoDB, OpenAI, Tkinter, pyttsx3, speech_recognition, google translate, NLTK,
@@ -142,42 +166,12 @@
                             </li>
                         </ul>
                     </li>
-                    <li id="project-2">
-                        <h3>Online Movie Recommendation System</h3>
-                        <a href="https://mrs-sd.streamlit.app/" target="_blank">🌐 Website</a>
-                        &nbsp;
-                        <a href="https://github.com/soumadeep-dey/Movie-Recommendation-System" target="_blank">🔗
-                            GITHUB</a>
-                        <p>
-                            <strong>Techstack:</strong>
-                            <em>Python, Streamlit, Numpy, Pandas, Scikit-learn, NLTK</em>
-                        </p>
-                        <ul>
-                            <li>
-                                Developed a content-based movie recommendation system utilizing cosine similarity to
-                                suggest movies based on user preferences from datasets comprising over 7,500 movies,
-                                encompassing 2,850 Indian regional films.
-                            </li>
-                            <li>
-                                Tags for each movie are generated by amalgamating various details, such as genre, title,
-                                top three cast, director, keywords, and overview.
-                            </li>
-                            <li>
-                                Tags were stemmed and converted into vectors using which a similarity matrix was formed
-                                by computing cosine similarity among the vectors.
-                            </li>
-                            <li>
-                                Implemented a recommendation mechanism to suggest the top 15 movies with the highest
-                                similarity scores for any searched movie.
-                            </li>
-                        </ul>
-                    </li>
                     <li id="project-3">
                         <h3>Online Movie Recommendation System</h3>
-                        <a href="https://mrs-sd.streamlit.app/" target="_blank">🌐 Website</a>
+                        🌐 <a href="https://mrs-sd.streamlit.app/" target="_blank">Website</a>
                         &nbsp;
-                        <a href="https://github.com/soumadeep-dey/Movie-Recommendation-System" target="_blank">🔗
-                            GITHUB</a>
+                        🔗 <a href="https://github.com/soumadeep-dey/Movie-Recommendation-System"
+                            target="_blank">GitHub</a>
                         <p>
                             <strong>Techstack:</strong>
                             <em>Python, Streamlit, Numpy, Pandas, Scikit-learn, NLTK</em>
@@ -202,34 +196,12 @@
                             </li>
                         </ul>
                     </li>
+
                 </ul>
             </td>
         </tr>
         <tr id="r2">
-            <td id="hobbies">
-                <h2>HOBBIES :</h2>
-                <hr />
-                <ul>
-                    <li>Filmmaking</li>
-                    <li>Cinematography</li>
-                    <li>Video Editing</li>
-                    <li>Photography</li>
-                    <li>Cricket</li>
-                    <li>Football</li>
-                </ul>
-            </td>
-        </tr>
-        <tr id="r3">
-            <td id="lang">
-                <h2>LANGUAGES :</h2>
-                <hr />
-                <ul>
-                    <li>English</li>
-                    <li>Hindi</li>
-                    <li>Bengali</li>
-                </ul>
-            </td>
-            <td id="achive">
+            <td id="achive" valign="top">
                 <h2>ACHIEVEMENTS :</h2>
                 <hr />
                 <ul>
@@ -247,6 +219,31 @@
                     <li>
                         <a href="">Chitrakala:</a> organized AICTE affiliated intra-college painting competition.
                     </li>
+                </ul>
+            </td>
+        </tr>
+        <tr id="r3">
+            <td id="hobbies" valign="top">
+                <h2>HOBBIES :</h2>
+                <hr />
+                <ul>
+                    <li>Filmmaking</li>
+                    <li>Cinematography</li>
+                    <li>Video Editing</li>
+                    <li>Photography</li>
+                    <li>Cricket</li>
+                    <li>Football</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td id="lang" valign="top">
+                <h2>LANGUAGES :</h2>
+                <hr />
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Bengali</li>
                 </ul>
             </td>
         </tr>
